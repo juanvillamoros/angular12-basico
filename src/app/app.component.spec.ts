@@ -1,5 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { ContadorComponent } from './contadores/contador/contador.component';
+
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -17,7 +19,7 @@ describe('AppComponent', () => {
   });
 
   it(`should have as title 'bases'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
+    const fixture = TestBed.createComponent(ContadorComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('bases');
   });
